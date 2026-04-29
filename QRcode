@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Abrir App Expo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    a {
+      display: inline-block;
+      padding: 15px 25px;
+      background-color: #2d89ef;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 18px;
+    }
+    a:hover {
+      background-color: #1b5fbd;
+    }
+  </style>
+</head>
+<body>
+  <h1>Abrir o Jogo no Expo</h1>
+  <p>Clique no botão abaixo para abrir o aplicativo:</p>
+  <a href="exp://u.expo.dev/933fd9c0-1666-11e7-afca-d980795c5824?runtime-version=exposdk%3A54.0.0&channel-name=production&snack=%40alifer2211%2F10a2f8&snack-channel=wUByqDY9oh">
+    Abrir no Expo Go
+  </a>
+</body>
+</html>
