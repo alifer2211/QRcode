@@ -18,9 +18,22 @@
       text-decoration: none;
       border-radius: 8px;
       font-size: 18px;
+      margin-top: 20px;
     }
     a:hover {
       background-color: #1b5fbd;
+    }
+    .qr-container {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 40px;
+    }
+    .qr-box img {
+      width: 150px;
+      height: 150px;
+      border: 2px solid #ccc;
+      border-radius: 8px;
     }
   </style>
 </head>
@@ -30,5 +43,14 @@
   <a href="exp://u.expo.dev/933fd9c0-1666-11e7-afca-d980795c5824?runtime-version=exposdk%3A54.0.0&channel-name=production&snack=%40alifer2211%2F10a2f8&snack-channel=wUByqDY9oh">
     Abrir no Expo Go
   </a>
+
+  <div class="qr-container">
+    <div class="qr-box">
+      <img src="qr1.png" alt="QR Code 1">
+    </div>
+    <div class="qr-box">
+      <img src="qr2.png" alt="QR Code 2">
+    </div>
+  </div>
 </body>
 </html>
